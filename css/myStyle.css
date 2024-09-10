@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    height: 100vh;
+
+    gap: 25px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.sidebar-l {
+    width: 280px;
+    height: 360px;
+    background-color: skyblue;
+    border: 2px solid black;
+
+    display: flex;
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+.content {
+    width: 280px;
+    height: 360px;
+    background-color: skyblue;
+    border: 2px solid black;
+
+    display: flex;
+    flex-grow: 4;
+}
+.sidebar-r {
+    width: 280px;
+    height: 360px;
+    background-color: skyblue;
+    border: 2px solid black;
+
+    display: flex;
+
+    flex-grow: 2;
+}
