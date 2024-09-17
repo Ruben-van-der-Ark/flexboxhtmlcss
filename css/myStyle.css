@@ -52,7 +52,6 @@ body {
     padding-left: 8px;
     padding-right: 8px;
     justify-content: space-between;
-    jusfify-content: left;
 }
 
 .block {
@@ -71,5 +70,9 @@ body {
 }
 
 a {
-    color: #DDDDFF
+    color: #DDDDFF;
+}
+
+a:hover {
+    color: #BBBBFF;
 }
